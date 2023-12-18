@@ -1,0 +1,69 @@
+.Gamebackground {
+    background: linear-gradient(250deg, #5469ad 10%, #09247c 90%);
+}
+
+.PongGame .Circles {
+
+    background: linear-gradient(180deg, #213167 0%, #001047 100%);
+}
+
+.ClickToStartGame {
+
+    animation-name: ClickToStart;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    color: rgb(215, 214, 214)
+}
+
+.OnlineCard {
+    /* box-shadow: 1px 1px 10px 1px rgb(128, 124, 124); */
+    background: linear-gradient(109deg, #8EA0FF 2.1%, #01A 98.37%);
+}
+
+.OnlineCard #Bottom {
+
+    background: linear-gradient(10deg, #5366c8 2.1%, #01A 98.37%);
+}
+
+.MatchingCard {
+    background: linear-gradient(#313C4D, #43546D);
+    /* box-shadow: 1px 1px 10px 0.1px rgb(78, 78, 78); */
+}
+
+.MatchingCard #Bottom {
+    background: linear-gradient(#313C4D, #43546D);
+}
+
+.ComputerCard {
+    background: linear-gradient(109deg, #c69d35 1.63%, #f0d575 47.63%, #e9c339 98.4%);
+    /* box-shadow: 1px 1px 10px 0.1px rgb(78, 78, 78); */
+}
+
+.ComputerCard #Bottom {
+    background: linear-gradient(109deg, #c69d35 1.63%, #d8c066 47.63%, #e9c339 98.4%);
+}
+
+.BottonsSettings {
+    background: linear-gradient(109deg, #96a4ec 2.1%, rgb(66, 84, 242) 98.37%);
+    color: white;
+    transition: background 0s;
+}
+
+.BottonsSettings:hover {
+    background: linear-gradient(109deg, #5f71cd 2.1%, rgb(48, 64, 210) 98.37%);
+}
+
+
+@keyframes ClickToStart {
+    0% {
+        color: rgb(215, 214, 214)
+    }
+
+    50% {
+        color: rgb(43, 43, 43)
+    }
+
+    100% {
+        color: rgb(215, 214, 214)
+    }
+}
